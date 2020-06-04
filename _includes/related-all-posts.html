@@ -1,0 +1,14 @@
+
+<section class="related-all-posts">
+    <h3>Other articles on our website...</h3>
+
+    {% for post in site.posts limit=3 %}
+        <article>
+            <a href="{{ site.url }}{{ post.url }}">
+                <img src="{{ site.url }}/assets/img/posts/{{ post.image }}" title="{{post.title}}" alt="{{post.image-alt}}">
+                <h4>{{post.title}}</h4>
+            </a>
+        </article>
+    {% endfor %}
+
+</section>

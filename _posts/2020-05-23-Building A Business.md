@@ -3,7 +3,8 @@ layout: post
 date: Thursday 23 may 2020
 author: Andy Brown
 authorimage: andy.jpg
-title: startup | Building A Business
+title: Building A Business
+description: Building a business can be very daunting at first, here is a little guide to get you started and help you on your way.
 excerpt: Building a business can be very daunting at first, here is a little guide to get you started and help you on your way.
 categories: [ startup ]
 section: Planning
