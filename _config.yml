@@ -1,0 +1,70 @@
+# Site Info
+name: disBiz
+title: disBiz
+description: 'Online resource community for disabled entrepreneurs and business'
+logo: 'assets/img/logo/logo.png'
+favicon: 'assets/img/logo/logo.png'
+markdown: kramdown
+url: 'https://disbiz.co'
+baseurl: "https://disbiz.co"
+permalink: /blog/:categories/:title/
+exclude: ['README.md']
+include: ["_pages"]
+future: true
+
+# services
+google_analytics: 'UA-56777723-23'
+disqus: 'demowebsite'
+mailchimp-list: 'https://lillegz.us11.list-manage.com/subscribe/post?u=5d42a04c2f05a239ea81c1d26&amp;id=d0a6eb7e9c'
+
+# collections
+collections:
+  shop:
+    output: true
+
+# Social Media Accounts
+facebook: disbizuk
+twitter: disbizuk
+instagram: disbizuk
+email: andy@disbiz.co
+
+# Authors
+author: Andy Brown
+
+# Authors
+authors:
+  sal:
+    name: Andy Brown
+    display_name: Andy
+    avatar: 'assets/images/avatar.png'
+    gravatar: e56154546cf4be74e393c62d1ae9f9d4
+    email: andy@andy.cymru
+    web: https://andy.cymru
+    twitter: https://twitter.com/cymruandy
+    description: "Legendary in all areas of life"
+  john:
+    name: John
+    display_name: John    
+    avatar: 'assets/images/avatar.png'
+    gravatar: b1cc14991db7a456fcd761680bbc8f81
+    email: wowthemesnet@gmail.com
+    web: https://www.wowthemes.net
+    twitter: https://twitter.com/wowthemesnet
+    description: "This is the author box. Write a short description of the author here. You are currently previewing Mediumish demo, a Jekyll template compatible with Github pages."
+
+# Plugins
+#  plugins:
+#    - jekyll-paginate
+#    - jekyll-archives
+    
+# Archives
+jekyll-archives:
+  enabled:
+    - categories
+  layout: archive
+  permalinks:
+    category: '/category/:name/'
+    
+# Pagination 
+# paginate: 6
+# paginate_path: /page:num/

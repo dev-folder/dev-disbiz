@@ -1,0 +1,153 @@
+---
+---
+{% include header.html %}  	
+	
+	<main class="post-content justFadeContent">
+			
+			
+            <date>{{ page.date | date: "%d.%m.%Y" }} | By: {{page.author}}</date>
+			{% if page.image %}<img src="/assets/images/posts/{{page.image}}" title="{{page.title}}" alt="{{ page.image-alt }}">{% endif %}
+			
+            <content>{{ content }}</content>
+			
+			
+			<div class="post-tags">
+                Tags:
+                {% if post %}
+                {% assign tags = post.tags %}
+                {% else %}
+                {% assign tags = page.tags %}
+                {% endif %}
+
+                {% for tag in tags %}
+                    <a href="/tags/#{{tag|slugize}}">{{tag}}</a>{% unless forloop.last %}{% endunless %}
+                {% endfor %}
+            </div>
+            
+    </main>
+
+	<main class="post-article">
+        
+        <h1>{{page.title}}</h1>
+        <img src="{{post.image}}" alt="{{post.image-alt}}">
+        <div class="post-details">
+            <span>Date: </span>{{ page.date | date: "%d.%m.%Y" }}
+            <span>Author: </span>{{page.author}}
+            <span>Tags: </span>
+            {% if post %}
+            {% assign tags = post.tags %}
+            {% else %}
+            {% assign tags = page.tags %}
+            {% endif %}
+
+            {% for tag in tags %}
+                <a href="/tags/#{{tag|slugize}}">{{tag}}</a>{% unless forloop.last %}{% endunless %}
+            {% endfor %} </div>
+        
+        
+
+        <content>{{ content }}</content>
+
+        <section class="post-share"></section>
+
+        <div class="social-share">
+            <h3>Share with your friends...</h3>
+            <a href="https://facebook.com/sharer.php?u={{ site.url }}{{ page.url }}" rel="nofollow" target="_blank" title="Share '{{ page.title }}' on Facebook" class="facebook">Facebook</a>
+            <a href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ site.url }}{{ page.url }}&via={{ site.twitter }}&related={{ site.twitter }}" rel="nofollow" target="_blank" title="Share '{{ page.title }}' on Twitter" class="twitter">Twitter</a>
+            <a href="mailto:?subject={{ page.title }}&amp;body=Check out this post {{ site.url }}{{site.baseurl}}{{ page.url }}" title="Share '{{ page.title }}' on Email" class="email" target="_blank">Email</a>
+            <div class="clear"></div>
+        </div>
+        
+	<section class="mailinglist">
+        <h2>Mailing List</h2>
+        <p>Interested in having our latest articles in your email so you can read them on the go? add your email and we will do the rest.</p>
+    </section>
+
+
+
+        <div class="share">
+            <p>
+                Share
+            </p>
+            <ul>
+                <li class="ml-1 mr-1">
+                    <a target="_blank" href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ page.url | absolute_url }}" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </li>
+        
+                <li class="ml-1 mr-1">
+                    <a target="_blank" href="https://facebook.com/sharer.php?u={{ page.url | absolute_url }}" onclick="window.open(this.href, 'facebook-share', 'width=550,height=435');return false;">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                </li>
+        
+                <li class="ml-1 mr-1">
+                    <a target="_blank" href="https://www.linkedin.com/shareArticle?mini=true&url={{ page.url | absolute_url }}" onclick="window.open(this.href, 'width=550,height=435');return false;">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                </li>
+        
+            </ul>
+        </div>
+    </main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<section class="related-posts">
+
+<!-- Related Posts
+================================================== -->
+<section>
+    {% unless page.categories == empty %}
+    <h2>Explore more like this</h2>
+    {% endunless %}
+
+    {% assign maxRelated = 3 %}
+    {% assign minCommonTags =  1 %}
+    {% assign maxRelatedCounter = 0 %}
+    <div class="related-posts">
+        {% for post in site.posts %}
+        
+            {% assign sameTagCount = 0 %}
+            {% assign commonTags = '' %}
+        
+            {% for category in post.categories %}
+            {% if post.url != page.url %}
+                {% if page.categories contains category %}
+                {% assign sameTagCount = sameTagCount | plus: 1 %}
+                {% capture tagmarkup %} {{ category }} {% endcapture %}
+                {% assign commonTags = commonTags | append: tagmarkup %}
+                {% endif %}
+            {% endif %}
+            {% endfor %}
+        
+            {% if sameTagCount >= minCommonTags %}
+            <article>
+                <img src="{{post.image}}" alt="{{post.title}}">
+                <h3>{{post.title}}</h3>
+            </article>
+
+            {% assign maxRelatedCounter = maxRelatedCounter | plus: 1 %}
+            {% if maxRelatedCounter >= maxRelated %}
+                {% break %}
+            {% endif %}
+            {% endif %}
+        
+        {% endfor %}
+        </div>        
+</section>
+		
+{% include footer.html %}

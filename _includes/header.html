@@ -1,0 +1,65 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="robots" content="{{site.robots}}">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="{{site.description}}">
+    <meta name="msvalidate.01" content="5D38763EEC078679E6C158DFAB433D2F" />
+    <meta name="google-site-verification" content="3rrK_7N4Ahn5-1ACbZSq7BeDYTqLbYyVmLD78RJT3gg" />
+    {% if page.author %}<meta name="author" content="{{site.author}}">{% endif %}
+    <meta property="og:url" content="{{ site.url }}" />
+	<meta property="og:type" content="article" />
+	<meta property="og:title" content="{{ site.title }}" />
+	<meta property="og:description" content="{{ site.description }}" />
+	<meta property="og:image" content="{{ site.url }}/images/{{site.image}}" />
+    <meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:site" content="{{ site.url }}" />
+	<meta name="twitter:creator" content="@{{site.twitter}}">
+	<meta name="twitter:title" content="{{site.title}}" />
+	<meta name="twitter:description" content="{{ site.description }}" />
+	<meta name="twitter:image" content="{{ site.url }}/images/{{site.image}}" />
+	
+	{% if site.keywords %} <meta name="keywords" content="{{site.keywords}}" /> {% endif %}
+    {% if page.url == "/404/" %} <meta http-equiv="refresh" content="10; url=/">{% endif %}
+    <meta property="fb:app_id" content="{{site.url}}/" >
+    <link rel="canonical" href="{{site.url}}">
+    <link rel="shortcut icon" type="image/png" href="{{ site.url }}/favicon.png">
+	<link href='{{ site.url }}/feed.xml' rel='alternate' type='application/atom+xml'>
+	
+	<title>{{site.name}} - {{post.description}}{{page.description}}</title>
+	<link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/aileron" type="text/css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;900&display=swap" rel="stylesheet">
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id={{site.google_analytics}}"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', '{{site.google_analytics}}');
+    </script>
+</head>
+<body>
+
+    <header id="header">
+        <div class="logo">
+            <a href="{{site.url}}" title="disbiz logo" target="_self">disBiz<span>.co</span></a>
+        </div>
+
+        <button id="roundButton"
+            class="justFade">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+        </button>
+
+        <nav id="navbar">
+            <a href="{{site.url}}">Home</a>
+            <a href="{{site.url}}/about/">About</a>
+            <a href="{{site.url}}/contact/">Contact</a>
+        </nav>
+    </header>

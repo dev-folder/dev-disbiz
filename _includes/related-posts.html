@@ -1,0 +1,43 @@
+
+<section class="related-posts">
+        
+    {% unless page.categories == empty %}
+    <h3>Explore more like this...</h3>
+    {% endunless %}
+
+    {% assign maxRelated = 3 %}
+    {% assign minCommonTags =  1 %}
+    {% assign maxRelatedCounter = 0 %}
+
+    
+        {% for post in site.posts %}
+        
+            {% assign sameTagCount = 0 %}
+            {% assign commonTags = '' %}
+        
+            {% for category in post.categories %}
+            {% if post.url != page.url %}
+                {% if page.categories contains category %}
+                {% assign sameTagCount = sameTagCount | plus: 1 %}
+                {% capture tagmarkup %} {{ category }} {% endcapture %}
+                {% assign commonTags = commonTags | append: tagmarkup %}
+                {% endif %}
+            {% endif %}
+            {% endfor %}
+        
+            {% if sameTagCount >= minCommonTags %}
+            <article>
+                <a href="{{ site.url }}{{ post.url }}">
+                    <img src="{{ site.url }}/assets/img/posts/{{ post.image }}" title="{{post.title}}" alt="{{post.image-alt}}">
+                    <h4>{{post.title}}</h4>
+                </a>
+            </article>
+
+            {% assign maxRelatedCounter = maxRelatedCounter | plus: 1 %}
+            {% if maxRelatedCounter >= maxRelated %}
+                {% break %}
+            {% endif %}
+            {% endif %}
+        
+        {% endfor %}
+    </section>

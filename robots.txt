@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /about
+Allow: /blog
+Allow: /resources
+Allow: /contact
+Allow: /index
+Disallow: /archive
+Disallow: /tags
+Disallow: /thanks
+
+Sitemap: http://www.disbiz.co/sitemap/
