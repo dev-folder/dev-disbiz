@@ -15,13 +15,21 @@ License URI: license.txt
 /****************************************/
 /* General
 /****************************************/
-
+/*
+  Colours
+  Primary: Purple #8031A7
+  Secondary: Dark Purple #622980
+  Tertiary: Blue #009BDF
+  Neutral: Yellow #FEE123
+  Other: Dark Grey #3D3935
+*/
 *{margin:0; padding: 0; box-sizing: border-box;}
 
-body{background-color: #f3f3f3; color: #000; margin: 15% auto 0 auto; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-weight: normal;}
+body{animation: fadein 1s; background-color: #f3f3f3; color: #000; margin: 15% auto 0 auto; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-weight: normal;}
 h1, h2, h3, h4 {text-align:left; font-family: 'AileronHeavy'; font-weight:normal; font-style:normal;}
 
-p, p a{font-family: 'Lato', sans-serif; color:#6e6e6e; font-weight:300; letter-spacing: 1px; }
+
+p, p a{color:#3D3935; font-family: Muli, sans-serif; font-size: 18px; font-weight: 300; line-height: 1.875;}
 ul, ul a{}
 li, a{list-style: none;}
 img, img a{}
@@ -59,48 +67,36 @@ a:link, a:visited, a:hover, a:active {text-decoration:none;}
       
       #navbar { width:100vw; height:100vh; position: fixed; top:0; left:0; background-color: #000; overflow: hidden; z-index: 12; transform: translate3d(-100vw,0,0); transition: transform .4s cubic-bezier(0, .52, 0, 1); }
 
-      #navbar a{display: block; color: #fff; text-decoration: none; text-align: center; font-weight: normal; text-transform: uppercase; margin: 8% 0; font-size: 20pt; letter-spacing: 10pt;}
+      #navbar a{display: block; color: #fff; text-decoration: none; text-align: center; font-weight: normal; text-transform: uppercase; margin: 8% 0; font-size: 20pt; letter-spacing: 2pt;}
 
       #navbar.show { transform: translate3d(0vw, 0,0);}
 
 main{width: 96%; margin:57px auto 0 auto;}
-main p{text-align: left; line-height: 27px !important; font-size:15px; margin: auto; padding: 0px 0px 20px 0px;}
+main p{text-align: left; margin: auto; padding: 0px 0px 20px 0px;}
 /*
 main article{margin-bottom:10%;}
 main article a img{width:91%; margin:4%}
 */
 
 
-/* Home articles */
+/* Home header */
+.home-header{padding-top:5%; margin: 0 auto; text-align: center; width: 90%;}
+.home-header h1{color:#000; letter-spacing: -1pt; text-align: center; font-size: 29pt;}
+.home-header span{color:#8031A7; letter-spacing: -1pt; text-align: center; font-size: 27pt;}
 
+/* Home articles */
 .article-card {display: grid; grid-template-columns: 1fr 1fr; box-shadow: 0 3px 24px rgba(0, 0, 0, 0.2); width: 90%; margin: 10% auto; border-radius: 9pt; background-color: #fff;}
 .article-card img{grid-column: 1/3; width: 100%; border-radius: 9pt 9pt 0 0; grid-template-columns: 2fr;}
 .article-card a{grid-column: 1/3; }
-.article-card .cat{grid-column: 1/3; text-transform: uppercase; font-size: 12px; color: #999; font-weight: 500; letter-spacing: 3px; padding: 2% 5% 0 5%;}
-.article-card h3{grid-column: 1/3; padding:2% 5%;}
-.article-card p{grid-column: 1/3; padding: 2% 5%;}
-.article-card .author{grid-column: 1/2; margin:10%; text-align: left;}
+.article-card .cat{grid-column: 1/3; text-transform: uppercase; font-size: 11px; color: #999; font-weight: 500; letter-spacing: 3px; padding: 2% 5% 0 5%;}
+.article-card h3, .article-card h3 a{grid-column: 1/3; padding:1% 5% 2% 5%; color:#000;}
+.article-card p{grid-column: 1/3; padding: 2% 5%; font-size:16px;}
+.article-card p a{color: #000; text-transform: capitalize; font-size:inherit;}
+.article-card .author{grid-column: 1/2; margin:10%; text-align: left; color:#8031A7; }
 .article-card .author span{line-height: 1; vertical-align: middle; display:inline;}
 .article-card .author img{border-radius:50%; width: 25px; vertical-align: middle; height: auto; margin-right:4%;}
-.article-card .readtime{grid-column: 2/3; margin:10%; text-align: right;}
+.article-card .readtime{grid-column: 2/3; margin:10%; padding-top:3%; text-align: right; text-transform: uppercase; font-size: 12px; color: #999; font-weight: 500;}
 .article-card .button{display: none;}
-
-/*
-
-.article-card {display: grid; grid-column: 1/2; box-shadow: 0 3px 24px rgba(0, 0, 0, 0.2); width: 80%; margin: 5% auto; border-radius: 9pt; background-color: #fff;}
-.article-card img{width: 100%; border-radius: 9pt 9pt 0 0; grid-template-columns: 2fr;}
-.article-card a{grid-template-columns: 2fr;}
-.article-card .cat{grid-template-columns: 2fr; display: inline-block; text-transform: uppercase; font-size: 12px; font-weight: 700; line-height: 1; letter-spacing: 3px; margin: 0 0 12px 0; padding: 0 0 4px 0; border-bottom: 2px solid #ebebeb;}
-.article-card h3{grid-template-columns: 2fr;}
-.article-card p{grid-template-columns: 2fr;}
-.article-card .post-info{grid-template-columns: 2fr; }
-.article-card .author{grid-column:1;}
-.article-card .readtime{grid-column:2;}
-.article-card .button{display: none;}
-
-
-*/
-
 
 /* main post styles */
 .post-article {width:100%; margin: 0 auto; padding:5%;}
@@ -109,7 +105,7 @@ main article a img{width:91%; margin:4%}
 .post-article h3{}
 .post-article h4{}
 .post-article img {width: 100%; height: auto; padding-bottom:5%;}
-.post-article p{margin: 3% 0;}
+.post-article p{margin: 3% 0; font-weight: 300;}
 .post-article p a{}
 
 .post-article blockquote {margin: 1.5em 10px; padding: 0.5em 10px; font-size:13pt; vertical-align: middle; text-align: center; font-style: italic; color:#666;}
@@ -126,25 +122,25 @@ main article a img{width:91%; margin:4%}
 .post-tags {font-size:10pt;}
 .post-tags a{font-weight:bold; color: #8031A7; text-transform: capitalize;}
 
-.post-share {display: grid; grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr; fill:#fff; border-top: solid #000 1pt; border-bottom: solid #000 1pt; width:90%; padding:2% 4%; margin: 0 auto 5% auto;}
+.post-share {fill:#fff; display: grid; grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr; fill:#fff; border-top: solid #000 1pt; border-bottom: solid #000 1pt; width:90%; padding:2% 4%; margin: 0 auto 5% auto;}
 .post-share h3{margin-bottom: 2%; grid-column: 1/10;}
-.post-share a{margin-bottom: 2%; grid-column: 1/10;}
+.post-share a{fill:#fff; margin: 4%; grid-column: 1/10;}
 .post-share a:hover{opacity: 0.5;}
 
 .post-share img{margin-bottom: 2%; width:20px;}
-.post-share .email{background-color: #999; grid-column: 1/2; padding:10%; text-align: center;}
+.post-share .email{background-color: #000; grid-column: 1/2; padding:10%; text-align: center;}
 .post-share .facebook{background-color: #3b5998; grid-column: 2/3; padding:10%; text-align: center;}
-.post-share .imessage{background-color: blue; grid-column: 3/4; padding:10%; text-align: center;}
-.post-share .twitter{background-color: #4099FF; grid-column: 4/5; padding:10%; text-align: center;}
-.post-share .pinterest{background-color: red; grid-column: 5/6; padding:10%; text-align: center;}
-.post-share .whatsapp{background-color: green; grid-column: 6/7; padding:10%; text-align: center;}
-.post-share .linkedin{background-color: blue; grid-column: 7/8; padding:10%; text-align: center;}
+.post-share .imessage{background-color:#1877f2; grid-column: 3/4; padding:10%; text-align: center;}
+.post-share .twitter{background-color: #1da1f2; grid-column: 4/5; padding:10%; text-align: center;}
+.post-share .pinterest{background-color:#bd081c; grid-column: 5/6; padding:10%; text-align: center;}
+.post-share .whatsapp{background-color:#25d366; grid-column: 6/7; padding:10%; text-align: center;}
+.post-share .linkedin{background-color:#007bb5; grid-column: 7/8; padding:10%; text-align: center;}
 
 section{}
 
-.related-posts{width: 100%; padding:6% 4%; background-color: #999;}
-.related-all-posts{width: 100%; padding:6% 4%; background-color: #666;}
-.related-posts h3, .related-all-posts h3{font-size: 18pt; margin: 2% 0;}
+.related-posts{width: 100%; padding:6% 4%; background-color: #8031A7;}
+.related-all-posts{width: 100%; padding:6% 4%; background-color: #622980;}
+.related-posts h3, .related-all-posts h3{font-size: 18pt; margin: 2% 0; color: #fff; font-weight: normal;}
 .related-posts a, .related-all-posts a{text-decoration: none; text-transform: uppercase; color: #000;;}
 .related-posts article, .related-all-posts article{width: 44%; border-radius: 7pt; box-shadow: 0 3px 24px rgba(0, 0, 0, 0.2); display:inline-block; margin: 2%; background-color: #fff;;}
 .related-posts article h4, .related-all-posts article h4{font-size: 11pt; margin:5%;}
@@ -154,11 +150,12 @@ section{}
 .mailinglist{background-color:#8031A7; padding: 6%;}
 .mailinglist h2{text-transform: uppercase; text-align: center; color: #fff;}
 .mailinglist p{color: #fff; font-weight: 100; font-size: 10pt; margin:2% 0;}
-.mailinglist form, .mailinglist style=[input]{text-transform: uppercase; text-align: center;}
+.mailinglist form, .mailinglist style=[input]{text-transform: uppercase; text-align: center; color:#fff;}
+.mailinglist label{color:#fff; position:inherit; top:0; bottom: 0; display: inline-block;}
 
-.social{padding:4%; margin: 0; text-align: center;}
+.social{padding:4%; margin: 0; text-align: center;fill:#f00;}
 .social h2{text-align: center;}
-.social img, .social svg{width: 35px; height: auto; margin: 2% 6%;}
+.social img, .social svg path{width: 35px; height: auto; margin: 2% 6%; fill: green !important;}
 
 /* ----------- THE CONTACT ----------- */
 .page_contact{text-align: center; padding: 4% 0;}
@@ -185,11 +182,11 @@ form #email{ display:none; }
   
 aside{}
 
-footer{text-align: center; background-color: #717171; width: 100%; padding:4% 0;}
+footer{text-align: center; background-color: #3D3935; width: 100%; padding:4% 0;}
 footer p{color:rgb(233, 233, 233); font-size: 8pt;}
 footer ul{margin:4%; font-size:10pt;}
 footer ul li{display: inline;}
-footer ul li a{color:#000; padding: 0 2%; text-decoration: underline;}
+footer ul li a{color:#f3f3f3; padding: 0 2%; text-decoration: underline;}
 
 
 

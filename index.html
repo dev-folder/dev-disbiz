@@ -4,30 +4,33 @@ title:
 description: Online resource community for disabled entrepreneurs and business
 lang: en
 ---
+<section class="home-header">
+    <h1><span>disBiz</span> is a platform to encourage disabled entrepreneurs to thrive.</h1>
+</section>
 
-<h1>disbiz is a project to encourage disabled people.</h1>
+<main>
+    {% for post in site.posts %}
+        <article class="article-card">
+            <a href="{{ site.url }}{{ post.url }}"><img src="{{ site.url }}/assets/img/posts/{{ post.image }}" title="{{ post.title }}" alt="{{post.image-alt}}"></a>
+            <div class="cat">{{ post.categories }}</div>
+            <a href="{{ site.url }}{{ post.url }}"><h3>{{ post.title }}</h3></a>
+            <p>{{ post.excerpt | truncate: 150 }} <a href="{{ site.url }}{{ post.url }}" title="read more about {{ post.title }}">read more...</a></p>
+            <div class="author">
+                <span>
+                    <img src="{{ site.url }}/assets/img/authors/{{post.authorimage}}" alt="{{post.author}}'s Avatar Image'">{{post.author}}
+                </span>
+            </div>
+            
+            <div class="readtime">
+                {% assign words = post.content | number_of_words %}
+                {% if words < 360 %}
+                    1 min read
+                {% else %}
+                    {{ words | divided_by:180 }} mins read
+                {% endif %}
+            </div>
 
-{% for post in site.posts %}
-	<article class="article-card">
-        <a href="{{ site.url }}{{ post.url }}"><img src="{{ site.url }}/assets/img/posts/{{ post.image }}" title="{{ post.title }}" alt="{{post.image-alt}}"></a>
-        <div class="cat">{{ post.categories }}</div>
-        <h3>{{ post.title }}</h3>
-        <p>{{ post.excerpt | truncate: 150 }}</p>
-        <div class="author">
-            <span>
-                <img src="{{ site.url }}/assets/img/authors/{{post.authorimage}}" alt="{{post.author}}'s Avatar Image'">{{post.author}}
-            </span>
-        </div>
-        
-        <div class="readtime">
-            {% assign words = post.content | number_of_words %}
-            {% if words < 360 %}
-                1 min read
-            {% else %}
-                {{ words | divided_by:180 }} mins read
-            {% endif %}
-        </div>
-
-        <a href="{{ site.url }}{{ post.url }}" class="button">Read More</a>
-    </article>
-{% endfor %}
+            <a href="{{ site.url }}{{ post.url }}" class="button">Read More</a>
+        </article>
+    {% endfor %}
+</main>

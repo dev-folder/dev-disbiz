@@ -2,30 +2,30 @@
 ---
 {% include header.html %}
 
-	<main class="post-article post-content justFadeContent">
-        <h1>{{page.title}}</h1>
-        <div class="post-details">
-            <span>Date: </span>{{ page.date | date: "%d.%m.%Y" }}
-            <span>Author: </span>{{page.author}}
-        </div>
-            <img src="{{ site.url }}/assets/img/posts/{{ page.image }}" title="{{ page.title }}" alt="{{page.image-alt}}">
-            <content>{{ content }}</content>
+<main class="post-article post-content justFadeContent">
+    <h1>{{page.title}}</h1>
+    <div class="post-details">
+        <span>Date: </span>{{ page.date | date: "%d.%m.%Y" }}
+        <span>Author: </span>{{page.author}}
+    </div>
+        <img src="{{ site.url }}/assets/img/posts/{{ page.image }}" title="{{ page.title }}" alt="{{page.image-alt}}">
+        <content>{{ content }}</content>
 
-            <span class="post-tags">Tags: 
-            {% if post %}
-            {% assign tags = post.tags %}
-            {% else %}
-            {% assign tags = page.tags %}
-            {% endif %}
+        <span class="post-tags">Tags: 
+        {% if post %}
+        {% assign tags = post.tags %}
+        {% else %}
+        {% assign tags = page.tags %}
+        {% endif %}
 
-            {% for tag in tags %}
-                <a href="/tags/#{{tag|slugize}}">{{tag}}</a>,{% unless forloop.last %}{% endunless %}
-            {% endfor %}
-            </span>
-    </main>
+        {% for tag in tags %}
+            <a href="/tags/#{{tag|slugize}}">{{tag}}</a>,{% unless forloop.last %}{% endunless %}
+        {% endfor %}
+        </span>
+</main>
     
-    {% include share.html %}
-    {% include related-posts.html %}
-    {% include related-all-posts.html %}
-    
-    {% include footer.html %}
+{% include share.html %}
+{% include related-posts.html %}
+{% include related-all-posts.html %}
+
+{% include footer.html %}
