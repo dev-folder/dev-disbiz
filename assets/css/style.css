@@ -23,6 +23,8 @@ License URI: license.txt
   Neutral: Yellow #FEE123
   Other: Dark Grey #3D3935
 */
+
+
 *{margin:0; padding: 0; box-sizing: border-box;}
 
 body{animation: fadein 1s; background-color: #f3f3f3; color: #000; margin: 15% auto 0 auto; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-weight: normal;}
@@ -36,8 +38,7 @@ img, img a{}
 
 a:link, a:visited, a:hover, a:active {text-decoration:none;}
 
-.button{color:#fff; background-color: #8031A7; padding:2% 3%;
-  border-radius: 6pt;}
+.button{color:#fff; background-color: #8031A7; padding:2% 3%; border-radius: 6pt;}
 .button:hover{background-color:#522e91;}
 .left{float: left;}
 .right{float: right;}
@@ -147,11 +148,18 @@ section{}
 .related-posts article img, .related-all-posts article img{width:100%; height:auto; border-radius: 7pt 7pt 0 0;}
 
 
-.mailinglist{background-color:#8031A7; padding: 6%;}
-.mailinglist h2{text-transform: uppercase; text-align: center; color: #fff;}
-.mailinglist p{color: #fff; font-weight: 100; font-size: 10pt; margin:2% 0;}
-.mailinglist form, .mailinglist style=[input]{text-transform: uppercase; text-align: center; color:#fff;}
-.mailinglist label{color:#fff; position:inherit; top:0; bottom: 0; display: inline-block;}
+.mailinglist{background-color:#8031A7; padding: 6% 0; box-sizing:border-box; color: #fff;}
+.mailinglist h2{text-transform: uppercase; text-align: center;}
+.mailinglist p{ font-weight: 100; font-size: 10pt; line-height:12pt; margin:2% auto 4% auto; width:90%; color:#fff;}
+.mc-field-group{display: grid; grid-template-columns: repeat(4, 1fr); font-size:10pt; text-align: left;}
+.mailinglist .grid-1{grid-column:1/2; margin:2%; align-items: end;}
+.mailinglist .grid-2{grid-column:2/3; margin:2%; align-items: end;}
+.mailinglist .grid-3{grid-column:3/4; margin:2%; align-items: end;}
+.mailinglist .grid-4{grid-column:4/4; margin:2%; align-items: end;}
+.mailinglist label{display:block; color:#999; margin-bottom:5px;}
+.mailinglist input{display:block;  width:100%; padding:5%; border:none; border-radius: 4pt;}
+.mailinglist .button{color:#fff; margin-top:22px; padding:5%; position:inherit; bottom:0; color:#fff; background-color:#000}
+
 
 .social{padding:4%; margin: 0; text-align: center;fill:#f00;}
 .social h2{text-align: center;}
@@ -162,24 +170,20 @@ section{}
 
 form{width:90%; margin: 2% auto; text-align: center; font-weight: normal;}
 form p{margin: 0 auto; padding: 0;}
-
-input[type="text"], input[type="email"], input[type="phone"], select[type="dropdown"], textarea[type="message"] {width:30%; margin:2% auto; padding:1%; text-align: left; border: dashed 1px #000; color:#000; font-size: 10pt; background-color: transparent;}
-
-input[type="submit"] { border-radius:0; border: none; padding:1% 2%; margin:0% auto; font-style: normal; font-size: 10pt; background-color: #000; color:#FFF;}
-input:hover[type="submit"] {background-color: #000; cursor: pointer;}
-
-.none { display:none;}
-form #email{ display:none; }
-
 	
-.contact-page-form form{width:90%; margin: 0 auto 3% auto; text-align: center; font-weight: normal;}
-.contact-page-form form p{margin: 0 auto; padding: 0;}
-.contact-page-form input[type="text"], .contact-page-form input[type="email"], .contact-page-form input[type="phone"], .contact-page-form select[type="dropdown"], textarea[type="message"] {width:100%; margin:1% auto; padding:1.5%; text-align: left; border: dashed 1px #000; color:#000; font-size: 10pt; background-color: transparent;}
-.contact-page-form input[type="submit"] { border-radius:0; border: none; padding:2% 5%; margin:0% auto; font-style: normal; font-size: 10pt; background-color: #000; color:#FFF; display: block;}
-.contact-page-form input:hover[type="submit"] {background-color: #000; cursor: pointer;}
+.contact-page-form form{width:90%; margin: 0 auto 3% auto; font-weight: normal;}
+.contact-page-form form p{margin: 0 auto 10% auto; padding: 0;}
+.contact-page-form label{text-align: left; margin: 20px auto 7px auto; display: block;}
+.contact-page-form input[type="text"],
+.contact-page-form input[type="email"],
+.contact-page-form input[type="number"],
+.contact-page-form select,
+.contact-page-form textarea{width:100%; margin:1% auto; padding:1.5%; text-align: left; border: dashed 1px #000; color:#000; font-size: 10pt; background-color: transparent;}
+.contact-page-form input[type="submit"] { border-radius:0; border: none; padding:2% 5%; margin:5% auto 10% auto; font-style: normal; font-size: 10pt; background-color: #000; color:#FFF; display: block;}
+.contact-page-form input:hover[type="submit"] {background-color:#8031A7; cursor: pointer;}
 .contact-page-form .none { display:none;}
-.contact-page-form form #email{ display:none; }
-  
+.contact-page-form form #email{ display:none;}
+
 aside{}
 
 footer{text-align: center; background-color: #3D3935; width: 100%; padding:4% 0;}
@@ -187,12 +191,6 @@ footer p{color:rgb(233, 233, 233); font-size: 8pt;}
 footer ul{margin:4%; font-size:10pt;}
 footer ul li{display: inline;}
 footer ul li a{color:#f3f3f3; padding: 0 2%; text-decoration: underline;}
-
-
-
-
-
-
 
 
 

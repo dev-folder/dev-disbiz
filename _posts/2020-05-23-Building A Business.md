@@ -14,6 +14,8 @@ tags:
 - AndyCymru
 image: art-1192793.jpg
 image-alt: building AndyCymru
+youtube-link:
+podcast-link:
 ---
 
 ## Planning

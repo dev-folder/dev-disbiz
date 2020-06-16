@@ -7,209 +7,79 @@
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
     
      <image>
-	  <url>http://localhost:4000/assets/images/posts/art-1192793.jpg</url>
+	  <url>http://localhost:4000/assets/img/posts/art-1192793.jpg</url>
 	  <title>Building A Business</title>
 	  <link>http://localhost:4000/blog/startup/Building-A-Business/</link>
 	 </image>
       <item>
         <title>Building A Business</title>
-        <description>&lt;h2 id=&quot;planning&quot;&gt;Planning&lt;/h2&gt;
-&lt;p&gt;Need to work out what you want to do, who it’s for and how your going to do it.
-What materials are needed, who your ideal customer is, how your going to sell your service/product.&lt;/p&gt;
-
-&lt;h2 id=&quot;competition&quot;&gt;Competition&lt;/h2&gt;
-&lt;p&gt;What others are doing in the market and how to beat them!&lt;/p&gt;
-
-&lt;h2 id=&quot;finance&quot;&gt;Finance&lt;/h2&gt;
-&lt;p&gt;Pricing, costs etc….&lt;/p&gt;
-
-&lt;h2 id=&quot;marketing&quot;&gt;Marketing&lt;/h2&gt;
-&lt;p&gt;Advertising, social media, word of mouth, peer selling, etc..&lt;/p&gt;
-
-&lt;p&gt;Plan, Tell, Sell!&lt;/p&gt;
-
-&lt;p&gt;Each section has an ‘action list’ which is a todo list from that section people must do to move on and achieve their goal.&lt;/p&gt;
-</description>
-        <pubDate>Sat, 23 May 2020 00:00:00 -0700</pubDate>
+        <description>Building a business can be very daunting at first, here is a little guide to get you started and help you on your way.</description>
+        <pubDate>Sat, 23 May 2020 00:00:00 +0100</pubDate>
         <link>http://localhost:4000/blog/startup/Building-A-Business/</link>
         <guid isPermaLink="true">http://localhost:4000/blog/startup/Building-A-Business/</guid>
       </item>
     
      <image>
-	  <url>http://localhost:4000/assets/images/posts/disbiz.jpg</url>
+	  <url>http://localhost:4000/assets/img/posts/disbiz.jpg</url>
 	  <title>startup | Calling disabled business and entrepreneurs</title>
 	  <link>http://localhost:4000/blog/startup/business/Calling-disabled-business-and-entrepreneurs/</link>
 	 </image>
       <item>
         <title>startup | Calling disabled business and entrepreneurs</title>
-        <description>&lt;h1 id=&quot;calling-disabled-business-and-entrepreneurs&quot;&gt;Calling disabled business and entrepreneurs&lt;/h1&gt;
-&lt;p&gt;Since I started working in business I have often needed to look for advice on a way of tackling a situation due to my disability. There was never a place I could go to, there were many mummy’preneur groups, LGBT groups, ethnic minority groups etc but I could never find a good one that represented me in business. Don’t get my wrong there are disability support groups, but they often tend to be political or bashing on the bad side of life.&lt;/p&gt;
-
-&lt;p&gt;So I decided I would setup my own project. It’s called ‘disBiz’ which is short for ‘disabled business’ and the aim is to provide informative and constructive advice for building/running a business with a disability. There are many business advice websites already, but disBiz is more aimed at business through a disabled eye. It’s a lot more focused on disability specifics.&lt;/p&gt;
-
-&lt;p&gt;It is a project that I have often needed through starting and running my business. A place I can go where there are people in the same boat and have faced the same issues as me. I hope this project helps many people for the future.&lt;/p&gt;
-
-&lt;p&gt;Visit: &lt;a href=&quot;http://www.disbiz.co&quot;&gt;disbiz.co&lt;/a&gt;&lt;/p&gt;
-</description>
-        <pubDate>Fri, 07 Jun 2019 00:00:00 -0700</pubDate>
+        <description></description>
+        <pubDate>Fri, 07 Jun 2019 00:00:00 +0100</pubDate>
         <link>http://localhost:4000/blog/startup/business/Calling-disabled-business-and-entrepreneurs/</link>
         <guid isPermaLink="true">http://localhost:4000/blog/startup/business/Calling-disabled-business-and-entrepreneurs/</guid>
       </item>
     
      <image>
-	  <url>http://localhost:4000/assets/images/posts/blog.jpg</url>
+	  <url>http://localhost:4000/assets/img/posts/blog.jpg</url>
 	  <title>tips | Looking Professional With Email</title>
 	  <link>http://localhost:4000/blog/tips/looking-professional-with-email/</link>
 	 </image>
       <item>
         <title>tips | Looking Professional With Email</title>
-        <description>&lt;p&gt;Email has been the main staple of digital communication since the early days of the internet. It took off instantly and before long everyone seemed to communicate over email, especially in business. Hotmail, aol and yahoo were the main services that people used for email.&lt;/p&gt;
-
-&lt;p&gt;As email has evolved, in the business world many people have Hotmail, yahoo, gmail etc.. accounts. In this day these are fine for personal use, but for business it is important to use your domain email address. When you purchase a domain you will be provided with a facility to use email addresses. Whether via an inbox or forwarding to a gmail/hotmail etc account.&lt;/p&gt;
-
-&lt;p&gt;Using a domain email will provide a much more professional image when communicating with a client.&lt;/p&gt;
-</description>
-        <pubDate>Thu, 23 May 2019 00:00:00 -0700</pubDate>
+        <description></description>
+        <pubDate>Thu, 23 May 2019 00:00:00 +0100</pubDate>
         <link>http://localhost:4000/blog/tips/looking-professional-with-email/</link>
         <guid isPermaLink="true">http://localhost:4000/blog/tips/looking-professional-with-email/</guid>
       </item>
     
      <image>
-	  <url>http://localhost:4000/assets/images/posts/blog.jpg</url>
+	  <url>http://localhost:4000/assets/img/posts/blog.jpg</url>
 	  <title>Launching Your Website</title>
 	  <link>http://localhost:4000/blog/website/launching-your-website/</link>
 	 </image>
       <item>
         <title>Launching Your Website</title>
-        <description>&lt;p&gt;Are you looking to launch your new website and in need of some tips to make sure its a bit. We have uncovered a top 5 list that you need to make sure you cover before and during your launch.&lt;/p&gt;
-
-&lt;h2 id=&quot;1-awareness-on-social-media&quot;&gt;1. Awareness on Social Media&lt;/h2&gt;
-
-&lt;p&gt;Before you launch its important that the few months leading up to the big release that you have let your followers on social media know. etc…&lt;/p&gt;
-
-&lt;p&gt;In this post we discuss how to use social media effectivly to turn your social media followers in to customers and start making sales. Utilising a free resource to start earning you top profits.&lt;/p&gt;
-
-&lt;h3 id=&quot;2-this-is-the-heading-h3&quot;&gt;2. This is the heading h3&lt;/h3&gt;
-&lt;p&gt;In this post we discuss how to use social media effectivly to turn your social media followers in to customers and start making sales. Utilising a free resource to start earning you top profits.&lt;/p&gt;
-
-&lt;h4 id=&quot;3-this-is-the-heading-h4&quot;&gt;3. This is the heading h4&lt;/h4&gt;
-&lt;p&gt;In this post we discuss how to use social media effectivly to turn your social media followers in to customers and start making sales. Utilising a free resource to start earning you top profits.&lt;/p&gt;
-
-&lt;h5 id=&quot;4-this-is-the-heading-h5&quot;&gt;4. This is the heading h5&lt;/h5&gt;
-&lt;p&gt;In this post we discuss how to use social media effectivly to turn your social media followers in to customers and start making sales. Utilising a free resource to start earning you top profits.&lt;/p&gt;
-
-&lt;p&gt;In this post we discuss how to use social media effectivly to turn your social media followers in to customers and start making sales. Utilising a free resource to start earning you top profits.&lt;/p&gt;
-
-&lt;h1 id=&quot;imsofunky&quot;&gt;ImSoFunky&lt;/h1&gt;
-&lt;h2 id=&quot;imsofunky-web-themes--graphic-templates&quot;&gt;ImSoFunky Web Themes &amp;amp; Graphic Templates&lt;/h2&gt;
-&lt;p&gt;The site will have Wordpress and static themes aimed at smaller project sites, bands, musicians, weddings, etc…&lt;/p&gt;
-
-&lt;p&gt;Their will be a small selection of ‘lite’ themes that will be free but have a selection of main features taken out.&lt;/p&gt;
-
-&lt;p&gt;The theme will have a support tab in the dash that will be linked to videos of how to edit and update the website.&lt;/p&gt;
-
-&lt;p&gt;We will also have a service to install themes and setup things for people.&lt;/p&gt;
-
-&lt;p&gt;The site will have a blog feature that’s pushing all things web and marketing and social. Getting the best out of your small project.&lt;/p&gt;
-
-&lt;p&gt;The site will be a hub for small projects to get a full deal..&lt;/p&gt;
-
-&lt;p&gt;Themes for musicians, bands and artists.
-Themes for bloggers&lt;/p&gt;
-</description>
-        <pubDate>Thu, 23 May 2019 00:00:00 -0700</pubDate>
+        <description></description>
+        <pubDate>Thu, 23 May 2019 00:00:00 +0100</pubDate>
         <link>http://localhost:4000/blog/website/launching-your-website/</link>
         <guid isPermaLink="true">http://localhost:4000/blog/website/launching-your-website/</guid>
       </item>
     
      <image>
-	  <url>http://localhost:4000/assets/images/posts/blog.jpg</url>
+	  <url>http://localhost:4000/assets/img/posts/blog.jpg</url>
 	  <title>Branding | I Need A Website!</title>
 	  <link>http://localhost:4000/blog/branding/website/I-need-a-website!/</link>
 	 </image>
       <item>
         <title>Branding | I Need A Website!</title>
-        <description>&lt;h1 id=&quot;i-need-a-website&quot;&gt;I need a website!&lt;/h1&gt;
-&lt;p&gt;If you have ever heard yourself scream ‘I need a website!’ or you have been getting sleepless nights and worried about how to go about setting up an online kingdom. Well let me break it down for you, and you will be online before you know it!&lt;/p&gt;
-
-&lt;h2 id=&quot;the-name&quot;&gt;The name&lt;/h2&gt;
-&lt;p&gt;The first thing you need to do is sit down and work out what you want your website to be called. It can be anything that’s relating in what your website is about. Either your name, business name, project related, or anything.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://andy.cymru/coosing-the-right-domain-name&quot;&gt;Choosing the right domain name&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Once you have a few ideas on your name, it’s now time to purchase your domain. This is your unique part of the internet that will make it easy for everyone to find you. There are many variations either a .com, .net, .org etc… to be honest it doesn’t really matter. As .com used to be king for years but with so many of them already been bought, people have had to be creative in their choices.&lt;/p&gt;
-
-&lt;p&gt;Once you have found a domain name that is available to purchase, it is now time to find a domain vendor to purchase. Company’s charge different prices for the exact same product, so it might be worth doing a search to find the best price. (Anything over £10 for just a domain name is too much, and they are ripping you off)&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://andy.cymru/blog/top-10-domains&quot;&gt;My Top 5 domain name providers!&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;hosting-your-website&quot;&gt;Hosting your website&lt;/h2&gt;
-&lt;p&gt;Once you have your domain name. It’s now time to setup a place to store your website files for your domain name to display. This is called ‘web hosting’. This is separate from your domain in that you can have your hosting with the same or a separate company. Like domain vendors, their are also many company’s providing a ‘website hosting’ service, they also range in various prices.&lt;/p&gt;
-
-&lt;p&gt;Your choice of web host depends on your project. This is outlined more deeply in the following post &lt;a href=&quot;http://andy.cymru/webb&quot;&gt;Finding the right web host provider for you&lt;/a&gt;
-Where we break down what type of service suits.&lt;/p&gt;
-
-&lt;h2 id=&quot;sprinkle-your-world-with-beauty&quot;&gt;Sprinkle your world with beauty&lt;/h2&gt;
-&lt;p&gt;Once you have your domain name and web hosting setup, it’s time to build your website. This can either be done by yourself with the aid of &lt;a href=&quot;http://andy.cymru/templates/&quot;&gt;templates&lt;/a&gt;, video tutorials and guides etc.. or you can approach a professional designer and get your website designed and built professionally. This depends on your skill level, time and budget for your website.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://andy.cymru/des&quot;&gt;Choosing the right designer and strategy for my website&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Part of the design process is adding the right content for the audience your website is aimed at. Content is key, so it is important that all your text, spelling and grammar is perfect, images are correct and sized properly, your logos have been designed and applied properly, and everything has been carefully analysed to deliver the best your website can be. It is also important to keep your website updated wether it’s new blog posts, amended services, about us pages etc… nobody wants to visit a website with the information that is seven years old.&lt;/p&gt;
-
-&lt;h2 id=&quot;spread-the-word&quot;&gt;Spread the word&lt;/h2&gt;
-&lt;p&gt;Once you have your brand new sparkling website, it’s time to shout out loud about it so everyone knows about it. These days we have the beauty of utilising social media, which can really help in online promotion. You have the choice of setting up new accounts with a similar name to your website, or utilising your current profiles with your website promotions.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://andy.cymru&quot;&gt;Promoting through social media&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Online promotion is great and very good for quick promos and limited budgets. It’s also important not to forget certain traditional ways of promotion. Posters, banners, adverts in local newspapers are still effective ways of spreading the word depending on your website and project. It’s important to look at your potential returns before you invest as it can be quite costly when your just starting out.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://andy.cymru/marketing&quot;&gt;Traditional marketing that’s still effective today&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Marketing and promotional advertising as all about getting your project or brand in front of people, then creating a response. So it can sometimes need thinking out of the box in a way of getting people to notice you. Try working out where the audience that would be interested in your project tend to hang around, either online or offline. Do the frequent on certain websites or social media’s? or do they wait in certain establishments? How can you get them to see or actively notice your project or brand.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://andy.cymru/promoting-out-of-the-box&quot;&gt;Promoting out of the box&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;The process of building your online kingdom is very exciting, yet it can take time. Generally it won’t have over a million hits on launch day, things take time so it’s important to be patient. As long as you follow these tips and tricks then I’m sure you will have a successful project and will go a long way. Good luck!&lt;/p&gt;
-</description>
-        <pubDate>Thu, 23 May 2019 00:00:00 -0700</pubDate>
+        <description></description>
+        <pubDate>Thu, 23 May 2019 00:00:00 +0100</pubDate>
         <link>http://localhost:4000/blog/branding/website/I-need-a-website!/</link>
         <guid isPermaLink="true">http://localhost:4000/blog/branding/website/I-need-a-website!/</guid>
       </item>
     
      <image>
-	  <url>http://localhost:4000/assets/images/posts/website.jpg</url>
+	  <url>http://localhost:4000/assets/img/posts/website.jpg</url>
 	  <title>startup | I Need A Website</title>
 	  <link>http://localhost:4000/blog/startup/business/i-need-a-website/</link>
 	 </image>
       <item>
         <title>startup | I Need A Website</title>
-        <description>&lt;p&gt;If you have ever heard yourself scream ‘I need a website!’ or you have been getting sleepless nights and worried about how to go about setting up an online kingdom. Well let me break it down for you, and you will be online before you know it!&lt;/p&gt;
-
-&lt;h3 id=&quot;the-name&quot;&gt;The name&lt;/h3&gt;
-&lt;p&gt;The first thing you need to do is sit down and work out what you want your website to be called. It can be anything that’s relating in what your website is about. Either your name, business name, project related, or anything.&lt;/p&gt;
-
-&lt;p&gt;Once you have a few ideas on your name, it’s now time to purchase your domain. This is your unique part of the internet that will make it easy for everyone to find you. There are many variations either a .com, .net, .org etc… to be honest it doesn’t really matter. As .com used to be king for years but with so many of them already been bought, people have had to be creative in their choices.&lt;/p&gt;
-
-&lt;p&gt;Once you have found a domain name that is available to purchase, it is now time to find a domain vendor to purchase. Company’s charge different prices for the exact same product, so it might be worth doing a search to find the best price. (Anything over £10 for just a domain name is too much, and they are ripping you off)&lt;/p&gt;
-
-&lt;h3 id=&quot;hosting-your-website&quot;&gt;Hosting your website&lt;/h3&gt;
-&lt;p&gt;Once you have your domain name. It’s now time to setup a place to store your website files for your domain name to display. This is called ‘web hosting’. This is separate from your domain in that you can have your hosting with the same or a separate company. Like domain vendors, their are also many company’s providing a ‘website hosting’ service, they also range in various prices.&lt;/p&gt;
-
-&lt;h3 id=&quot;sprinkle-your-world-with-beauty&quot;&gt;Sprinkle your world with beauty&lt;/h3&gt;
-&lt;p&gt;Once you have your domain name and web hosting setup, it’s time to build your website. This can either be done by yourself with the aid of templates, video tutorials and guides etc.. or you can approach a professional designer and get your website designed and built professionally. This depends on your skill level, time and budget for your website.&lt;/p&gt;
-
-&lt;p&gt;Part of the design process is adding the right content for the audience your website is aimed at. Content is key, so it is important that all your text, spelling and grammar is perfect, images are correct and sized properly, your logos have been designed and applied properly, and everything has been carefully analysed to deliver the best your website can be. It is also important to keep your website updated wether it’s new blog posts, amended services, about us pages etc… nobody wants to visit a website with the information that is seven years old.&lt;/p&gt;
-
-&lt;h3 id=&quot;spread-the-word&quot;&gt;Spread the word&lt;/h3&gt;
-&lt;p&gt;Once you have your brand new sparkling website, it’s time to shout out loud about it so everyone knows about it. These days we have the beauty of utilising social media, which can really help in online promotion. You have the choice of setting up new accounts with a similar name to your website, or utilising your current profiles with your website promotions.&lt;/p&gt;
-
-&lt;p&gt;Online promotion is great and very good for quick promos and limited budgets. It’s also important not to forget certain traditional ways of promotion. Posters, banners, adverts in local newspapers are still effective ways of spreading the word depending on your website and project. It’s important to look at your potential returns before you invest as it can be quite costly when your just starting out.&lt;/p&gt;
-
-&lt;p&gt;Marketing and promotional advertising as all about getting your project or brand in front of people, then creating a response. So it can sometimes need thinking out of the box in a way of getting people to notice you. Try working out where the audience that would be interested in your project tend to hang around, either online or offline. Do the frequent on certain websites or social media’s? or do they wait in certain establishments? How can you get them to see or actively notice your project or brand.&lt;/p&gt;
-
-&lt;p&gt;The process of building your online kingdom is very exciting, yet it can take time. Generally it won’t have over a million hits on launch day, things take time so it’s important to be patient. As long as you follow these tips and tricks then I’m sure you will have a successful project and will go a long way. Good luck!&lt;/p&gt;
-</description>
-        <pubDate>Wed, 11 Apr 2018 00:00:00 -0700</pubDate>
+        <description>Need a website for your project, here i outline what you need.</description>
+        <pubDate>Wed, 11 Apr 2018 00:00:00 +0100</pubDate>
         <link>http://localhost:4000/blog/startup/business/i-need-a-website/</link>
         <guid isPermaLink="true">http://localhost:4000/blog/startup/business/i-need-a-website/</guid>
       </item>

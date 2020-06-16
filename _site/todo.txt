@@ -1,14 +1,15 @@
 * style author and min read on home card
 * sort out paragraph font and syles
-finish styling mailing list
+* finish styling mailing list
 
 * sort colours on related posts
 * sort colours on social media icons
-add mailing list to posts
-check feed and sitemap work
-check markup for seo so its banging.
-add pages about and contact.
+* add mailing list to posts
+* add pages about and contact.
 style page layout
 add archive and categories pages and layout
 add and style contact form
 add authors page and style
+
+* check feed and sitemap work
+check markup for seo so its banging.
