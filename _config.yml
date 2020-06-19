@@ -7,7 +7,12 @@ favicon: 'assets/img/logo/logo.png'
 markdown: kramdown
 url: 'https://disbiz.co'
 baseurl: "https://disbiz.co"
-permalink: /blog/:categories/:title/
+# permalink: /blog/:categories/:title/
+
+gems: [jekyll-paginate]
+paginate: 3
+paginate_path: "page:num"
+
 exclude: ['README.md']
 include: ["_pages"]
 future: true
@@ -23,11 +28,14 @@ collections:
     output: true
 
 # Social Media Accounts
-facebook: disbizuk
-twitter: disbizuk
-instagram: disbizuk
-email: andy@disbiz.co
+facebook: disbizco
+twitter: disbizco
+instagram: disbizco
+linkedin: disbizco
+pinterest: disbizco
+imessage: 4407703049609
 whatsapp: 4407703049609
+email: andy@disbiz.co
 # Authors
 author: Andy Brown
 
@@ -52,18 +60,14 @@ authors:
     twitter: https://twitter.com/wowthemesnet
     description: "This is the author box. Write a short description of the author here. You are currently previewing Mediumish demo, a Jekyll template compatible with Github pages."
 
-# Plugins
-#  plugins:
-#    - jekyll-paginate
-#    - jekyll-archives
-    
+
 # Archives
-jekyll-archives:
-  enabled:
-    - categories
-  layout: archive
-  permalinks:
-    category: '/category/:name/'
+#jekyll-archives:
+#  enabled:
+#    - categories
+#  layout: archive
+#  permalinks:
+#    category: '/category/:name/'
     
 # Pagination 
 # paginate: 6
