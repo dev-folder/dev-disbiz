@@ -2,27 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     
     <url>
-        <loc>http://localhost:4000/startup/2020/05/23/Building-A-Business.html</loc>
+        <loc>http://localhost:4000/Building-A-Business/</loc>
     </url>
     
     <url>
-        <loc>http://localhost:4000/startup/business/2019/06/07/Calling-disabled-business-and-entrepreneurs.html</loc>
+        <loc>http://localhost:4000/Calling-disabled-business-and-entrepreneurs/</loc>
     </url>
     
     <url>
-        <loc>http://localhost:4000/tips/2019/05/23/looking-professional-with-email.html</loc>
+        <loc>http://localhost:4000/looking-professional-with-email/</loc>
     </url>
     
     <url>
-        <loc>http://localhost:4000/website/2019/05/23/launching-your-website.html</loc>
+        <loc>http://localhost:4000/launching-your-website/</loc>
     </url>
     
     <url>
-        <loc>http://localhost:4000/branding/website/2019/05/23/I-need-a-website!.html</loc>
+        <loc>http://localhost:4000/I-need-a-website!/</loc>
     </url>
     
     <url>
-        <loc>http://localhost:4000/startup/business/2018/04/11/i-need-a-website.html</loc>
+        <loc>http://localhost:4000/i-need-a-website/</loc>
     </url>
     
 
@@ -30,7 +30,7 @@
 		
 			
 			<url>
-				<loc>http://localhost:4000/about.html</loc>
+				<loc>http://localhost:4000/about/</loc>
 			</url>
 			
 		
@@ -38,7 +38,7 @@
 		
 			
 			<url>
-				<loc>http://localhost:4000/contact.html</loc>
+				<loc>http://localhost:4000/contact/</loc>
 			</url>
 			
 		

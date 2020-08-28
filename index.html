@@ -12,12 +12,12 @@ lang: en
 <!-- This loops through the paginated posts -->
 {% for post in paginator.posts %}
     <article class="article-card">
-        <a href="{{ site.url }}{{ post.url }}"><img src="{{ site.url }}/assets/img/posts/{{ post.image }}" title="{{ post.title }}" alt="{{post.image-alt}}"></a>
+        <a href="{{ site.url }}{{ post.url }}"><img src="assets/img/posts/{{ post.image }}" title="{{ post.title }}" alt="{{post.image-alt}}"></a>
         <div class="cat">{{ post.categories }}</div>
         <a href="{{ site.url }}{{ post.url }}"><h3>{{ post.title }}</h3></a>
         <p>{{ post.excerpt | truncate: 150 }} <a href="{{ site.url }}{{ post.url }}" title="read more about {{ post.title }}">read more...</a></p>
         <div class="author">
-            <span><img src="{{ site.url }}/assets/img/authors/{{post.authorimage}}" alt="{{post.author}}'s Avatar Image'">{{post.author}}</span>
+            <span><img src="assets/img/authors/{{post.authorimage}}" alt="{{post.author}}'s Avatar Image'">{{post.author}}</span>
         </div>
         
         <div class="readtime">
